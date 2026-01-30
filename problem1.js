@@ -21,3 +21,12 @@ let y = c+d;
 console.log(Math.abs(y - 0.3) < Number.EPSILON); 
 
 
+//solve-3//
+let e = 0.2;
+let f = 0.1;
+console.log(e+f);
+
+let z = (0.2 * 10 + 0.1 * 10) / 10;
+
+console.log(z);         
+console.log(z === 0.3);
