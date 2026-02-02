@@ -15,3 +15,21 @@ function mileToKilo(mile){
 }
 
 console.log(mileToKilo(5));
+
+
+
+
+
+//Kilometer to mile//
+
+function kiloToMile(kilo){
+    const mile = kilo*0.6213711922;
+    return mile;
+}
+
+const result2 = kiloToMile(10);
+console.log(10,"kilometer =",result2,"miles.");
+//
+console.log(kiloToMile(10));
+
+
