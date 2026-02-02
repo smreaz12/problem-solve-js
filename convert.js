@@ -33,3 +33,12 @@ console.log(10,"kilometer =",result2,"miles.");
 console.log(kiloToMile(10));
 
 
+//professional way-----------
+function kiloToMile(kilo){
+    const mile = kilo*0.6213711922;
+    return mile;
+}
+
+const kiloInput = 10;
+const result3 = kiloToMile(kiloInput);
+console.log(kiloInput,"kilometer =", result3,"miles.");
