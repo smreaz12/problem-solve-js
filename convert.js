@@ -102,3 +102,12 @@ function kgToPound(kg){
 }
 
 console.log(kgToPound(10));
+
+
+//pound to kg//
+
+function poundToKg(pound){
+    return pound*0.453592;
+}
+
+console.log(poundToKg(10));
