@@ -78,3 +78,12 @@ function meterToFeet(meter){
 }
 
 console.log(meterToFeet(50));
+
+
+//feet to meter//
+
+function feetToMeter(feet){
+    return feet / 3.28084;
+}
+
+console.log(feetToMeter(50));
