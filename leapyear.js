@@ -12,3 +12,22 @@ else{
 
 const leapYear_input = leapYear(2068);
 console.log(leapYear_input);
+
+
+
+
+
+
+//Leap year system-2//
+
+function isLeapYear(year) {
+  return year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0);
+}
+
+const year = 2068;
+
+console.log(
+  isLeapYear(year)
+    ? `${year} is a leap year`
+    : `${year} is not a leap year`
+);
