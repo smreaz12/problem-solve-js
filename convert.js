@@ -87,3 +87,18 @@ function feetToMeter(feet){
 }
 
 console.log(feetToMeter(50));
+
+
+
+
+
+
+
+
+//Kg to Pound//
+
+function kgToPound(kg){
+    return kg*2.20462;
+}
+
+console.log(kgToPound(10));
