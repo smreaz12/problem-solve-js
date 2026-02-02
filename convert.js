@@ -126,3 +126,13 @@ function minuteToSecond(Minute){
 }
 
 console.log(minuteToSecond(10));
+
+
+
+//Time Convert -- Second to minute//
+
+function secondToMinute(second){
+    return second/60;
+}
+
+console.log(secondToMinute(600));
