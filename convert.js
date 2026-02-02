@@ -65,3 +65,16 @@ function fahrenheitToCelsius(fahrenheit) {
 
 console.log(fahrenheitToCelsius(86));
 
+
+
+
+
+
+
+//meter to feet//
+
+function meterToFeet(meter){
+    return meter*3.28084;
+}
+
+console.log(meterToFeet(50));
