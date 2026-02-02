@@ -42,3 +42,16 @@ function kiloToMile(kilo){
 const kiloInput = 10;
 const result3 = kiloToMile(kiloInput);
 console.log(kiloInput,"kilometer =", result3,"miles.");
+
+
+
+
+
+
+//Temperature Convert--celsius to fahrenheit//
+
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9/5) + 32;
+}
+
+console.log(celsiusToFahrenheit(30));
