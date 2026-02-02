@@ -111,3 +111,18 @@ function poundToKg(pound){
 }
 
 console.log(poundToKg(10));
+
+
+
+
+
+
+
+
+//Time Convert -- Minute to Second//
+
+function minuteToSecond(Minute){
+    return Minute*60;
+}
+
+console.log(minuteToSecond(10));
