@@ -136,3 +136,17 @@ function secondToMinute(second){
 }
 
 console.log(secondToMinute(600));
+
+
+//Time Convert -- second to Hour + Minute + Second//
+
+function secondToHMS(totalSecond) {
+  const hour = Math.floor(totalSecond / 3600);
+  const remainingAfterHour = totalSecond % 3600;
+  const minute = Math.floor(remainingAfterHour / 60);
+  const second = remainingAfterHour % 60;
+
+  return `${hour}h ${minute}m ${second}s`;
+}
+
+console.log(secondToHMS(3890)); 
