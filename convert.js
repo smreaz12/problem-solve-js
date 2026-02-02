@@ -55,3 +55,13 @@ function celsiusToFahrenheit(celsius) {
 }
 
 console.log(celsiusToFahrenheit(30));
+
+
+//Temperature Convert--Fahrenheit to celsius//
+
+function fahrenheitToCelsius(fahrenheit) {
+  return (fahrenheit - 32) * 5/9;
+}
+
+console.log(fahrenheitToCelsius(86));
+
